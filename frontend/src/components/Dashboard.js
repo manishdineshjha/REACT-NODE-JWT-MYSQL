@@ -66,6 +66,7 @@ const Dashboard = () => {
                         <th>No</th>
                         <th>Name</th>
                         <th>Email</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,6 +75,7 @@ const Dashboard = () => {
                             <td>{index + 1}</td>
                             <td>{user.name}</td>
                             <td>{user.email}</td>
+                            <td><button className='button is-danger'>EDIT</button></td>
                         </tr>
                     ))}
 
